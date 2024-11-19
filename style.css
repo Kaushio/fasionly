@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+html{
+    font-size: 63.5%;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.video{
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -100;
+    right: 0;
+
+
+}
+
+
+
+.header{
+    top: 0%;
+    width: 100%;
+    height: 10vh;
+    padding: 0;
+    background: rgb(250, 250, 249);
+    color: black;
+    cursor: pointer; 
+    display: flex;
+    position: absolute; 
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+.header h3{
+        font-family: "Protest Riot", cursive;
+        color: black;
+        font-size: 4rem;     
+}
+.navbar a{
+    font-family: "Madimi One", cursive;
+    color: black;
+    font-size: 2rem;
+    padding: 2rem 2rem ;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+.navbar a:hover{
+    background-color: rgb(255, 179, 2);
+    color: white;
+}
+.search{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(255, 231, 159);
+    border-radius: 1.5rem;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+
+}
+.addtocart{
+    font-size: 20px;
+    border-radius: .5rem;
+    color: black;
+    font-family: "Madimi One", cursive;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.maintext{
+    width: 90%;
+    height: 90vh;
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    margin: .5rem 2rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border: 5px solid transparent;
+    justify-content: flex-start;
+
+}
+.leftsider{
+    width: 35%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    justify-content: space-evenly;
+    color: black;
+    padding: 1.5rem;
+}
+.first{
+    width: 100%;
+    background-color: transparent;
+    color: #ffffff;
+    height: 30%;
+    font-size: 4rem;
+    text-align: center;
+
+
+
+}
+.rightsider{
+        width: 65%;
+        height: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent; 
+        overflow: hidden;   
+}
+.rightsider img{
+    width: 110%;
+    height: 110%;
+    
+}
+
+
+.second{
+    width: 100%;
+    height: 10%;
+    background:transparent;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 0,6rem;
+    font-family: "Cormorant Garamond", serif;
+
+}
+button{
+    width: 80%;
+    height: 4rem;
+    border-radius: 2rem;
+    background:  rgb(255, 0, 0);
+    border: 3px solid white;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+}
+button:hover{
+    word-spacing: .5rem;
+    font-size: 2.3rem;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    object-position: bottom;    
+}
+.heading{
+    color: #000000;
+    font-size: 5rem;
+    padding-top: 5rem;
+    text-align: center;
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+.underline{
+    background: rgb(0, 0, 0);
+    height: 0.5rem;
+    width: 38%;
+    position: relative;
+    top: 0%;
+    border-radius: 2rem;
+    left: 31%;
+}
+.watches{
+    width: 100%;
+    height: auto;
+    background-color: rgb(231, 163, 17);
+    display: flex;
+    padding: 3rem;
+
+}
+.allwatches{
+    transition: 0.5s;
+    width: 35rem;
+    height: 45rem;
+    background: transparent;
+    color: #000000;
+    display: block;
+    margin: 3rem; 
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+}
+.top{
+    width: 100%;
+    height: 60%;
+    size: 40%;
+    background-color: rgb(223, 186, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9.5rem;
+}
+.top img{
+    width: 100%;
+    height:100%;
+}
+.top1 :hover{
+    cursor: pointer;
+    width: 30rem;
+    height: 30rem;
+   
+}
+.top1{
+    width: 100%;
+    height: 60%;
+    size: 40%;
+    background-color: rgb(223, 186, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9.5rem;
+}
+
+.top1 img{
+    width: 250%;
+    height:220%;
+    align-items: center;
+}
+.top2 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+}
+.top2{
+    width: 100%;
+    height: 60%;
+    size: 40%;
+    background-color: rgb(223, 186, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9.5rem;
+}
+.top2 img{
+    width: 250%;
+    height:220%;
+    align-items: center;
+}
+.top3 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+    
+}
+.top3{
+    width: 100%;
+    height: 60%;
+    size: 40%;
+    background-color: rgb(223, 186, 118);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9.5rem;
+}
+.top3 img{
+    width: 110%;
+    height:140%;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.bottom{
+    width: 100%;
+    height: 47%;
+    background-color: rgb(233, 223, 223);
+     font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.watches button{
+   width: 90%;;
+}
+.container3{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.container3 .heading{
+    font-size: 7rem;
+    
+}
+.shoes{
+    display: flex;
+  
+}
+.shoes .top2 img{
+    width: 150%;
+    height: 100%;
+}
+.shoes .top2 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem      
+}
+.shoes .top1 img{
+    width: 150%;
+    height: 100%;
+}
+.shoes .top1 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+} 
+
+.container4{
+    width: 100%;
+    height:inherit;
+    background: rgb(255, 255, 255);
+    object-position: bottom;   
+}
+.Caps{
+    display: inline-flex;
+    background-color: rgb(231, 163, 17);
+    padding: 0;
+    width: 100%;
+}
+.Caps .top1 img{
+    width: 110%;
+    height: 140%;
+
+}
+.Caps .top1 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+} 
+
+.Caps .top2 img{
+    width: 110%;
+    height: 140%;
+
+}
+.Caps .top2 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+} 
+.Caps .top3 img{
+    width: 100%;
+    height: 100%;
+
+}
+.Caps .top3 :hover{
+    cursor: pointer;
+    width: 20rem;
+    height: 20rem;
+} 
+
+.footer{
+    width: 100%;
+    height: 65vh;
+    background: rgb(255, 189, 21);
+}
+.upper{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 6rem solid white;
+
+}
+.lower{
+    width: 100%;
+    height: 20%;
+    display: flex;align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 3rem;
+    border-top: 5px solid white;
+
+}
+.images{
+    width: 100%;
+   text-align:center;
+   background: transparent;
+   height: 305;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.images img{
+    width: 20%;
+    height: 40%;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+#b1{
+    width: 25%;
+    height: 100%;
+    background:transparent;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem;
+    font-size: 2rem;
+}
+#b1 p{
+    margin: 3rem;
+}
+#b2{
+    width: 25%;
+    height: 100%;
+    background:transparent;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    
+    font-size: 2.5rem;
+}
+#b3 {width: 25%;
+height: 100%;
+background: transparent;
+color: #000000;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+padding: 1rem;
+font-size: 2.5rem;
+}
+
+
+
+.iconfooter{
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    color: #000000;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.input{
+    width: 90%;
+    height: 20%;
+    background: rgb(226, 155, 0);
+    border: 2px solid white;
+    border-radius: 2.5rem;
+    margin: 4rem;
+    font-size: 2rem;
+    padding: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+        
+    }
+}
